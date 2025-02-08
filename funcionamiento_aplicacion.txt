@@ -1,0 +1,29 @@
+# Funcionamiento de la Aplicación
+
+Esta aplicación permite a los usuarios crear una cuadrícula en la que pueden dibujar utilizando diferentes colores. A continuación se describen las principales funcionalidades y el flujo de trabajo de la aplicación:
+
+## Variables Principales
+- **container**: Selecciona el contenedor principal donde se dibujará la cuadrícula.
+- **gridButton**: Botón que permite crear la cuadrícula.
+- **clearGridButton**: Botón que limpia la cuadrícula.
+- **gridWidth** y **gridHeight**: Selectores que permiten al usuario definir el ancho y la altura de la cuadrícula.
+- **colorButton**: Selector de color que permite al usuario elegir el color con el que desea pintar.
+- **eraseBtn** y **paintBtn**: Botones que permiten alternar entre los modos de borrado y pintura.
+
+## Eventos
+La aplicación utiliza eventos de mouse y táctiles para permitir la interacción del usuario:
+- **mousedown/touchstart**: Inicia el proceso de dibujo o borrado.
+- **mousemove/touchmove**: Permite al usuario continuar dibujando o borrando mientras mueve el cursor o el dedo.
+- **mouseup/touchend**: Finaliza el proceso de dibujo o borrado.
+
+## Funcionalidades
+1. **Crear Cuadrícula**: Al hacer clic en el botón de crear cuadrícula, se genera una cuadrícula basada en los valores de ancho y altura seleccionados por el usuario.
+2. **Dibujar**: El usuario puede seleccionar un color y hacer clic en las celdas de la cuadrícula para pintarlas.
+3. **Borrar**: Al activar el modo de borrado, el usuario puede hacer clic en las celdas para hacerlas transparentes.
+4. **Limpiar Cuadrícula**: El botón de limpiar permite eliminar todo el contenido de la cuadrícula.
+5. **Actualizar Valores**: Los selectores de ancho y altura actualizan los valores mostrados en la interfaz de usuario.
+
+## Detección de Dispositivo
+La aplicación detecta si el usuario está utilizando un dispositivo táctil o un mouse, y ajusta los eventos en consecuencia.
+
+Este archivo proporciona una visión general del funcionamiento de la aplicación y puede ser útil para futuras referencias o para nuevos desarrolladores que trabajen en el proyecto.
