@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Pixel Art Editor</title>
+    <title>Generador de Pixel Art</title>
 </head>
 
 <body>
@@ -14,32 +15,34 @@
         <div class="options">
             <div class="opt-wrapper">
                 <div class="slider">
-                    <label for="width-range">Ancho de cuadrícula</label>
+                    <label for="width-range">Ancho de la cuadrícula</label>
+
                     <input type="range" id="width-range" min="1" max="35">
                     <span id="width-value">00</span>
                 </div>
                 <div class="slider">
-                    <label for="height-range">Alto de cuadrícula</label>
+                    <label for="height-range">Altura de la cuadrícula</label>
+
                     <input type="range" id="height-range" min="1" max="35">
                     <span id="height-value">00</span>
                 </div>
             </div>
 
             <div class="opt-wrapper">
-                <button id="subit-grid">Crear Cuadrícula</button>
-                <button id="clear-grid">Limpiar Cuadrícula</button>
+                <button id="submit-grid">Crear cuadrícula</button>
+
+                <button id="clear-grid">Limpiar cuadrícula</button>
+
                 <input type="color" id="color-input">
                 <button id="erase-btn">Borrar</button>
+
                 <button id="paint-btn">Pintar</button>
+
             </div>
+
         </div>
         <div class="container"></div>
     </div>
-
-
-
-
-
 
 
 
